@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="top" id="home">
+    <div class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#qualification">Qualification</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><button  class="contact">Contact</button></li>
+                <!-- <i class="mode-icon fas fa-sun" id="theme-toggle"></i> -->
+            </ul>
+           
+        </nav>
+
+        <div class="hamburger" onclick="openMenu()">
+            ☰
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <span class="close-btn" onclick="closeMenu()">✖</span>
+        <ul>
+            <li><a href="#home" onclick="closeMenu()">Home</a></li>
+            <li><a href="#about" onclick="closeMenu()">About</a></li>
+            <li><a href="#qualification" onclick="closeMenu()">Qualification</a></li>
+            <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+
+        </ul>
+    </div>
+
+    <!-- Main Section -->
+    <div class="main" >
+        <div class="main_content">
+            <h1>Hi, I'm Sharmila Poudel</h1>
+            <h2>Aspiring Frontend Developer</h2>
+            <p>"Your vision, my code—together, we craft stunning, seamless, and interactive web experiences that captivate and inspire!" </p>
+            <button class="btn1">Hire Me</button>
+        </div>
+        <div class="main_img">
+            <img src="images/sharmila5.jpg" alt="Sharmila Poudel">
+        </div>
+    </div>
+    
+</div>
+    
+<!-- //About Us Section// -->
+
+
+<div class="about-section container" id="about">
+    <div class="about-main">
+        <!-- Left Image -->
+        
+        <div class="about-image">
+                <img src="images/sharmila1.jpg" alt="MY Image" class="image">
+         </div>
+        
+        
+        <!-- Right Content -->
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm <strong>Sharmila Poudel</strong> a passionate Bachelor's student (3rd semester) pursuing a BIT degree. Currently, I'm diving deep into JavaScript while building upon my foundational knowledge of HTML and CSS. My goal is to become a skilled web developer who can craft dynamic and interactive websites.
+            </p>
+            <p>
+                I'm always exploring new technologies, solving coding challenges,seeing every challenge as an opportunity to learn and building projects to sharpen my skills. For me, "Adventure Begins with Curiosity!", and that's what drives my journey in web development.
+            </p>
+            <div class="separator-about"></div>
+            <div class="mydetails">
+           <div class="one">
+            <h5>Name:</h5>
+            <h6>Sharmila Poudel</h6>
+            <h5>Date of Birth:</h5>
+            <h6>June 30, 2005</h6>
+            
+           </div>
+           <div class="two">
+            <h5>Email::</h5>
+            <h6>sarupoudel921@gmail.com </h6>
+            <h5>Phone:</h5>
+            <h6>+977-9824146280 </h6>
+            
+           </div>
+           <div class="three">
+            <h5>Job:</h5>
+            <h6>Student </h6>
+            <h5>Place:</h5>
+            <h6>Kathmandu, Nepal</h6>
+           </div>
+        </div>
+           <div class="button">
+
+            <button class="btn1">Hire Me</button>
+            <button class="btn2">Resume</button>
+           </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- My Qualification -->
+
+<div class="qualification" id="qualification">
+    <h2>My Qualifications</h2>
+<div class="qualification-detail">
+    <!-- Bachelor Level -->
+    <div class="qualification-section">
+        <h3><i class="fas fa-school"></i><span> School Level</span></h3>
+        <p> <strong>School Level Education</strong></p>
+        <p>Jeev Juna Secondary School</p>
+        <p>2067-2076 </p>
+        
+        <div class="separator"></div>
+      </div>
+   
+    <!-- Secondary Level -->
+    <div class="qualification-section">
+      <h3><i class="fas fa-graduation-cap"></i><span> Secondary Level</span></h3>
+      <p> <strong>Higher Secondary Level Education, Major in Science</strong></p>
+      <p>Sagarmatha Secondary School</p>
+      <p>2077-2079 </p>
+      <div class="separator"></div>
+    </div>
+ <!-- School Level -->
+ <div class="qualification-section">
+    <h3><i class="fas fa-university"></i><span> Bachelor Level</span></h3>
+    <p> <strong>Bachelor in Information and Technology</strong></p>
+        <p>Texas College of Management and IT</p>
+        <p>2080-Current </p>
+    <div class="separator"></div>
+  </div>
+
+</div>
+
+  </div>
+
+
+
+
+  <!-- My skills -->
+  <div class="skills" id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+      <div class="skill-card">
+        <i class="fa-brands fa-html5"></i></i>
+        <h3>HTML</h3>
+        <p>HTML helps create the structure of web pages, and with its foundational knowledge I'm learning how to build clean, semantic markup to improve accessibility and page structure.</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-brands fa-css3"></i>
+        <h3>CSS</h3>
+        <p>CSS allows me to style and design web pages. I'm focused on improving my skills in layout techniques like Flexbox and Grid to create responsive, visually appealing websites.</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-code"></i>
+        <h3>JavaScript</h3>
+        <p>JavaScript fundamentals like variables, functions, and DOM manipulation are part of my learning journey. Excited to create dynamic and interactive web pages.</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-wordpress"></i>
+        <h3>WordPress</h3>
+        <p>Experienced in using WordPress to set up and customize websites with themes and plugins. Still learning how to optimize and enhance functionality..</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-python"></i>
+        <h3>Python</h3>
+        <p>Basic understanding of Python syntax, loops, and data structures. Interested in automation and looking forward to diving into backend development.</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-java"></i>
+        <h3>Java</h3>
+        <p>Exploring Java with a focus on object-oriented programming and problem-solving. Practicing algorithms to strengthen logical thinking.</p>
+      </div>
+    </div>
+  </div>
+
+<!-- My Project -->
+
+<div id="projects">
+
+<h2>Our latest <span>work</span></h2>
+
+
+<div class="project-detail">
+    
+
+    <div class="project-design ">
+        <img src="images/project2a.png" alt="portfolio image">
+        <div class="project-overlay">
+            <h3 class="project-title">Baby Clothing Store</h3>
+            <ul>
+                <!-- <li><a href="#">+</a></li> -->
+                <!-- <li><a href="#">🔗</a></li> -->
+            </ul>
+        </div>
+    </div>
+
+    <div class="project-design ">
+        <img src="images/project1.png" alt="portfolio image">
+        <div class="project-overlay">
+            <h3 class="project-title">Glasses Ecommerce Store</h3>
+            <ul>
+                <li><a href="#">+</a></li>
+                <!-- <li><a href="#">🔗</a></li> -->
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Contact -->
+ <div  id="contact-page">
+    <h2>Get In Touch</h2>
+    <p style="margin-left: 400px;">"Let's create something amazing together! Reach out for collaborations, inquiries, or just to say hi!"</p>
+    <div class="contactbox">
+        <div class="contact-info">
+            <h4>Contact Information</h4>
+            <p>Need a website that stands out? Let's talk!</p>
+            <div class="contact-icon">
+                <i class="fa-solid fa-phone"></i>
+                <h5>+977-9824146280</h5>
+            </div>
+            <div class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+                <h5>sarupoudel921@gmail.com</h5>
+            </div>
+            <div class="contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>Baneshwor,Kathmandu, Nepal</h5>
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Type your message..." required></textarea>
+                </div>
+        
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+ </div>
+  <!-- Footer -->
+<footer class="footer">
+  <div class="footer-column">
+      <h3>Contact Us</h3>
+      <p>+977-9824146280</p>
+      <p>sarupoudel921@gmail.com</p>
+      <p>Baneshwor, Kathmandu, Nepal</p>
+  </div>
+
+  <div class="footer-column">
+      <h3>Quick Links</h3>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+  </div>
+
+  <div class="footer-column">
+      <h3>More</h3>
+      <a href="#">Privacy Policy</a>
+      <a href="#">FAQ</a>
+      <a href="#">Our Blog</a>
+  </div>
+
+  <div class="footer-column ">
+      <h3>Connect With Us</h3>
+      <div class="social-icons">
+          <a href="https://www.facebook.com/sharmila.poudel.9066"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+  </div>
+</footer>
+
+  
+<script src="script.js"></script>
+</body>
+</html>

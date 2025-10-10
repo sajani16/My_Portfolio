@@ -305,7 +305,7 @@ about-section {
 .about-main {
     display: flex;
     align-items:center;
-    gap: 80px;
+    gap: 50px;
     padding-bottom:50px;
     padding-left: 100px;
     padding-top:20px;
@@ -339,6 +339,7 @@ about-section {
 .about-content {
     width:70%;
     margin-left:50px;
+    
 }
 
 .about-content h2 {
